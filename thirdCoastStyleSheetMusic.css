@@ -1,0 +1,121 @@
+html{
+    background-color: grey;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h2{
+    color:white;
+    display: flex;
+    
+    align-items:center;
+    flex-direction: row;
+
+
+}
+
+
+
+h6{
+    text-align: center;
+}
+
+#slider{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+    
+}
+
+#slider figure{
+    
+    animation: 20s slider infinite;
+    
+}
+
+.AlbumShow{
+    border: solid gold;
+}
+
+p{
+    color:black;
+    outline: gold;
+    font-size: 25px;
+    align-items: center;
+}
+
+p2{
+    font-size: 25px;
+}
+
+p3{
+    font-size: 25px;
+}
+p4{
+    font-size: 25px;
+    color:black;
+}
+
+.Player{
+    width: 80px;
+    justify-content: left;
+    
+    
+}
+
+iframe{
+    width:100%;
+    min-width: 80px;
+}
+
+
+
+box{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: darkgrey;
+}
+
+.nav{
+    background-color: grey;
+    
+    
+}
+
+li, a, button{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav_links{
+    list-style: none;
+    margin-left: 150px;
+    min-width: 800px;
+}
+
+
+
+.nav_links li{
+    
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between ;
+    padding: 0 0 0 80px;
+    
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease smooth;
+}
+
+.nav_links li a:hover{
+    color: red;
+    transition:.1s ease-in;
+}

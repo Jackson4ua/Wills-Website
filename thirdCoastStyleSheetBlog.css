@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Slash'; /*a name to be used later*/
+    src: url('http://domain.com/fonts/font.ttf'); /*URL to font*/
+}
+
+html{
+    background-color: grey;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+h2{
+    color:white;
+    display: flex;
+    
+    align-items:center;
+    flex-direction: row;
+
+
+}
+
+
+h6{
+    text-align: center;
+}
+
+p1{
+    color:black;
+    font-size: 25px;
+    align-items: center;
+}
+
+
+.BlogPost{
+    
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center{
+    width: max-content;
+    padding: 10px;
+    font-size: 25px;
+    text-align: center;
+    border: black solid 2px;
+  
+
+}
+
+.Player{
+    width: 80px;
+    justify-content: left;
+    
+    
+}
+
+iframe{
+    width:100%;
+    min-width: 80px;
+}
+
+
+
+
+.nav{
+    background-color: grey;
+    
+    
+}
+
+li, a, button{
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+    text-decoration: none;
+}
+
+.nav_links{
+    list-style: none;
+    margin-left: 150px;
+    min-width: 800px;
+}
+
+
+
+.nav_links li{
+    
+    align-items: center;
+    display: inline-block;
+    justify-content: space-between ;
+    padding: 0 0 0 80px;
+    
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease smooth;
+}
+
+.nav_links li a:hover{
+    color: red;
+    transition:.1s ease-in;
+}
